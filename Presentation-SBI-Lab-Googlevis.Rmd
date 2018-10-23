@@ -1,0 +1,98 @@
+---
+title: "UCLAx SBI Lab Presentation"
+author: "Joao de Paula & Tatiana Santos"
+date: "November 05, 2018"
+output: html_document
+---
+
+<img src="C:\Users\joao_\Dropbox\Data Science\UCLA\Git\UCLAx Silicon Beach Innovation Lab\Images\logo.jpg" >
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This is an introduction ..... 
+
+<!-- Talk about how Data Science gives you super power .... -->
+
+<!-- Mention why Data Science is important ... Say something about visualization -->
+
+
+
+## GoogleVis Demo: Motion Chart + World Bank Data
+
+This demo shows how country level data can be accessed from the World Bank via their API and displayed with a Motion Chart
+
+Process breakdown:
+
+<!-- Explain -->
+
+
+## Install packages
+
+
+R has more than 10,000 packages including  **GoogleVis**
+
+googleVis package
+RJSONIO package -  Reads JSON data into R
+
+## Connect to World Bank API
+
+<!-- Add code -->
+
+
+API - can access data from the World Bank in R
+
+You can have the world's data in your pocket with the data sets of the World Bank,
+
+World Bank provides us with a page which lists all indicator variables
+
+
+
+| Indicator | Key |
+|:--------------------:|:--------------:|
+| fertility rate | SP.DYN.TFRT.IN |
+| life expectancy | SP.DYN.LE00.IN |
+| population | SP.POP.TOTL |
+| GDP per capita (US$) | NY.GDP.PCAP.CD |
+
+## Merge various data sets to get the final table. 
+
+<!-- Show final table -->
+
+<!-- Talk about data set - how many countries, size of data, years, etc ... -->
+
+## Create motion chart
+
+
+
+```{r cars}
+
+
+
+```
+
+<!-- Run visualization and explain -->
+
+
+## Show motion Chart for 4 different sceneraios
+
+1) Fertility Rate x Life Expectancy - highest life expectancies are .... 
+<!-- Japan, etc ... -->
+
+Each buble is a country and the size of the bubble is the populaiton of that country. Shows  different colors for regions blue for asia. track China - it's life expectancy is growing as fertility rate are declining and it can be traced to  its  1968-69 one child policy
+
+2) GDP x Fertility Rate - change scale to log on Y (GDP) change colors to unique --- GDP is growing as Fertility rates are declining showing and inverse relationship between these 2 variables - Shows GPD growth for China / India since 60's
+There is an inverse relationship between Fertily rates and GDP
+
+3) GDP x Population -  Shows Trade of between population and GDP - bouncing in place showing population relatively stable while their GDP shows fluctuations
+
+
+4) GDP x Life Expectancy - Larger GDP equates to higher life expectancy. Cambodia Genocide in the late 70's and when it's over it takes off. Rwanda drops to about 25 year 
+
+
+<!-- Need to update link bellow -->
+
+The Markdown source file is hosted on [GitHub](https://github.com/jackdepaula/Data-Sets).
